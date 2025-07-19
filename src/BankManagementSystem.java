@@ -11,16 +11,16 @@ public class BankManagementSystem {
             System.out.println("2.Withdraw");
             System.out.println("3.Check Balance");
             System.out.println("4.Exit");
-            System.out.println("Enter your choice: ");
+            System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
             if (choice == 1) {
-                System.out.println("Enter amount to deposit: ");
+                System.out.print("Enter amount to deposit: ");
                 int moneyToDeposit = scanner.nextInt();
                 balance+=moneyToDeposit;
                 System.out.println("Money deposited.");
             }
             else if (choice == 2) {
-                System.out.println("Enter amount to withdraw: ");
+                System.out.print("Enter amount to withdraw: ");
                 int moneyToWithdraw = scanner.nextInt();
                 balance-=moneyToWithdraw;
                 System.out.println("Money withdrawn.");
